@@ -1,1 +1,13 @@
-/*# sourceMappingURL=estilo.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: antiquewhite;
+  color: black;
+}
+*::selection {
+  background-color: antiquewhite;
+  color: black;
+}/*# sourceMappingURL=estilo.css.map */
