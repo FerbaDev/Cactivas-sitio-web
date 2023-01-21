@@ -70,3 +70,9 @@
         }
     }
 }
+.alert {
+    margin-bottom: 20px;
+    a {
+        background-color: $fondo-alert;
+    }
+}

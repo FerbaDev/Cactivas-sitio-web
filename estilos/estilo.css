@@ -72,4 +72,11 @@
 }
 .club a:hover {
   color: azure;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
+.alert a {
+  background-color: #fff3cd;
 }/*# sourceMappingURL=estilo.css.map */
