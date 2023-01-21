@@ -76,3 +76,22 @@
         background-color: $fondo-alert;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .charla {
+        flex-direction: column;
+
+        .charla-img {
+            width: 90%;
+        }
+    }
+    .tienda {
+        flex-direction: column;
+
+        img {
+            width: 90%;
+            padding: $padd_img;
+            background-color: $bg_img;
+        }
+    }
+}

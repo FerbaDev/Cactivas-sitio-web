@@ -79,4 +79,21 @@
 }
 .alert a {
   background-color: #fff3cd;
+}
+
+@media screen and (max-width: 480px) {
+  .charla {
+    flex-direction: column;
+  }
+  .charla .charla-img {
+    width: 90%;
+  }
+  .tienda {
+    flex-direction: column;
+  }
+  .tienda img {
+    width: 90%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 }/*# sourceMappingURL=estilo.css.map */
