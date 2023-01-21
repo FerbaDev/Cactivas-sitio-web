@@ -51,4 +51,25 @@
 }
 .tienda img {
   width: 50%;
+}
+
+.club {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #4D5256;
+  padding: 5px;
+}
+.club p {
+  background-color: #4D5256;
+}
+.club a {
+  color: rgb(211, 174, 174);
+  background-color: #4D5256;
+}
+.club a:hover {
+  color: azure;
 }/*# sourceMappingURL=estilo.css.map */
