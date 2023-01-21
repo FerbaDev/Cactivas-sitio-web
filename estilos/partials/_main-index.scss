@@ -1,0 +1,26 @@
+.banner-bienvenida {
+    
+    p {
+
+        a{
+            color: $color-link;
+
+            &:hover {
+                color: azure;
+            }
+        }
+    }
+}
+.charla {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    align-items: center;
+    padding: $padd-cont;
+
+    .charla-img {
+        width: 50%;
+        padding: $padd_img;
+        background-color: $bg_img;
+    }
+}
