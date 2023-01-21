@@ -1,5 +1,5 @@
 .banner-bienvenida {
-    
+    padding: $padd-cont;
     p {
 
         a{
@@ -22,5 +22,28 @@
         width: 50%;
         padding: $padd_img;
         background-color: $bg_img;
+    }
+}
+.tienda {
+    display: flex;
+    justify-content: space-around;
+    padding: $padd-cont;
+    align-items: center;
+
+    .bannertienda {
+
+        p {
+            a {
+                color: $color-link;
+
+                &:hover {
+                    color: azure;
+                }
+            }
+        }
+    }
+
+    img {
+        width: 50%;
     }
 }
