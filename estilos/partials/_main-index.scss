@@ -76,6 +76,33 @@
         background-color: $fondo-alert;
     }
 }
+.mision {
+    padding: $padd-cont;
+    margin: $padd-cont;
+    background-color: $fondo-cont;
+    
+    h3{
+        text-align: center;
+        background-color: $fondo-cont;
+    }
+    p {
+        background-color: $fondo-cont;
+    }
+    em {
+        background-color: $fondo-cont;
+    }
+    strong {
+        background-color: $fondo-cont;
+    }
+    a {
+        color: $color-link;
+        background-color: $fondo-cont;
+
+        &:hover {
+            color: azure;
+        }
+    }
+}
 
 @media screen and (max-width: 480px) {
     .charla {

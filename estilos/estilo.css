@@ -81,6 +81,32 @@
   background-color: #fff3cd;
 }
 
+.mision {
+  padding: 20px;
+  margin: 20px;
+  background-color: #4D5256;
+}
+.mision h3 {
+  text-align: center;
+  background-color: #4D5256;
+}
+.mision p {
+  background-color: #4D5256;
+}
+.mision em {
+  background-color: #4D5256;
+}
+.mision strong {
+  background-color: #4D5256;
+}
+.mision a {
+  color: rgb(211, 174, 174);
+  background-color: #4D5256;
+}
+.mision a:hover {
+  color: azure;
+}
+
 @media screen and (max-width: 480px) {
   .charla {
     flex-direction: column;
