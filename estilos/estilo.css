@@ -134,6 +134,7 @@
 footer {
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(to right top, #212529, #2b3034, #363b3f, #41464a, #4d5256);
 }
 footer .cont1 {
   display: flex;
