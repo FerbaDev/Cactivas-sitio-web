@@ -107,6 +107,10 @@
   color: azure;
 }
 
+.carrusel {
+  padding: 20px;
+}
+
 .barraslides {
   background-color: rgba(0, 0, 0, 0);
 }
