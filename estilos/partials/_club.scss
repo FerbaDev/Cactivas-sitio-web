@@ -2,7 +2,14 @@
     margin-block: $padd-cont;
 
     .formulario-club {
-        padding: $padd_img;
+        padding: $padd_cont;
         border: solid 1px $colorfuente-p;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+
+        input{
+            background-color: $fondo-cont;
+        }
     }
 }

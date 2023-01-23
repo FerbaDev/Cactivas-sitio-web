@@ -22,6 +22,7 @@
         width: 90%;
         padding: $padd_img;
         background-color: $bg_img;
+        margin: $padd_img;
     }
 }
 .pedidos {
@@ -31,6 +32,15 @@
     border: solid 1px $colorfuente-p;
     padding: $padd-cont;
     margin: 30px;
+
+    input {
+        background-color: $fondo-cont;
+    }
+    .boton {
+        width: 50%;
+        margin: $padd_img;
+    }
+
 }
 @media screen and (max-width: 480px) {
 
