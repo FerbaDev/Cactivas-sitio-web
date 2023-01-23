@@ -309,4 +309,11 @@ body {
   .pedidos {
     width: 80%;
   }
+}
+.sec-formulario {
+  margin-block: 20px;
+}
+.sec-formulario .formulario-club {
+  padding: 5px;
+  border: solid 1px rgba(255, 255, 255, 0.85);
 }/*# sourceMappingURL=estilo.css.map */
