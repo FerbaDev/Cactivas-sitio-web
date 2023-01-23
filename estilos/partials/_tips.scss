@@ -1,3 +1,6 @@
+body {
+    background-color: $color-fondo;
+}
 h1 {
     margin-left: $padd_img;
     padding: $padd-cont;
@@ -19,6 +22,14 @@ h1 {
         }
     }
 }
+.banner-curso {
+    margin-left: $padd-cont;
+    margin-bottom: $padd-cont;
+    .tarj-curso {
+        border: solid 1px $bg_img;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .tips {
