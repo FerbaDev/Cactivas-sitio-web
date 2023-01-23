@@ -294,4 +294,19 @@ body {
   width: 90%;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pedidos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: solid 1px rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .pedidos {
+    width: 80%;
+  }
 }/*# sourceMappingURL=estilo.css.map */

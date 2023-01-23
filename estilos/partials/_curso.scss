@@ -24,3 +24,17 @@
         background-color: $bg_img;
     }
 }
+.pedidos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: solid 1px $colorfuente-p;
+    padding: $padd-cont;
+    margin: 30px;
+}
+@media screen and (max-width: 480px) {
+
+    .pedidos {
+        width: 80%;
+    }
+}
