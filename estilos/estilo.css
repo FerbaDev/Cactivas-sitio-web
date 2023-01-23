@@ -115,6 +115,11 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+#top5 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 480px) {
   .charla {
     flex-direction: column;
@@ -182,7 +187,7 @@ body {
   background-color: #212529;
 }
 
-h1 {
+#titheader {
   margin-left: 5px;
   padding: 20px;
 }
@@ -226,7 +231,7 @@ body {
   background-color: #212529;
 }
 
-h1 {
+#titheader {
   margin-left: 5px;
   padding: 20px;
 }
@@ -265,4 +270,28 @@ h1 {
     justify-content: center;
     align-items: center;
   }
+}
+.cartel-curso {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 1rem;
+}
+
+.card-curso {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  text-align: justify;
+  align-items: center;
+  background-color: #4D5256;
+}
+.card-curso p {
+  background-color: #4D5256;
+}
+.card-curso img {
+  width: 90%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
 }/*# sourceMappingURL=estilo.css.map */

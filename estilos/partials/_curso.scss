@@ -1,0 +1,26 @@
+.cartel-curso {
+    display: flex;
+    flex-direction: column;
+    padding: $padd-cont;
+    gap: 1rem;
+}
+.card-curso {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: $padd-cont;
+    text-align: justify;
+    align-items: center;
+    background-color: $fondo-cont;
+
+    p {
+        background-color: $fondo-cont;
+    }
+    
+
+    img {
+        width: 90%;
+        padding: $padd_img;
+        background-color: $bg_img;
+    }
+}
