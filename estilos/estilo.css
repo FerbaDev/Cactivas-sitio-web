@@ -330,4 +330,8 @@ body {
 }
 .sec-formulario .formulario-club input {
   background-color: #4D5256;
+}
+
+.catalogo {
+  display: grid;
 }/*# sourceMappingURL=estilo.css.map */
