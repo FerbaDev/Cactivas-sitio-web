@@ -391,4 +391,21 @@ body {
 }
 .catalogo .item16 {
   grid-area: item16;
+}
+
+@media screen and (max-width: 768px) {
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8" "item9 item10" "item11 item12" "item13 item14" "item15 item16";
+  }
+}
+@media screen and (max-width: 480px) {
+  .catalogo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8" "item9" "item10" "item11" "item12" "item13" "item14" "item15" "item16";
+  }
 }/*# sourceMappingURL=estilo.css.map */
