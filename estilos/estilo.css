@@ -17,14 +17,12 @@
 
 h1 {
   font-family: "Caveat Brush", cursive;
+  margin-block: 20px;
+  font-size: 4em;
 }
 
 .banner-bienvenida {
   padding: 20px;
-}
-.banner-bienvenida h1 {
-  margin-block: 20px;
-  font-size: 4em;
 }
 .banner-bienvenida p a {
   color: rgb(211, 174, 174);
