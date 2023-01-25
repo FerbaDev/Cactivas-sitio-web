@@ -1,3 +1,7 @@
+h1{
+    font-family: $fuente-titulos;
+    font-size: 3em;
+}
 .catalogo {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
