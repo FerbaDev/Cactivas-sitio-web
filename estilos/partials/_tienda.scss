@@ -13,6 +13,13 @@
         padding: $padd_img;
         width: 80%;
         margin: 10px;
+        filter: grayscale(60%);
+        
+
+        &:hover {
+            transform: scale(1.1);
+            filter: grayscale(0%);
+        }
     }
     .item1 {
         grid-area: item1;
