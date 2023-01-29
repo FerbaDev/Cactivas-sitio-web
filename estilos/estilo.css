@@ -66,6 +66,14 @@ h2, h3, p {
   width: 50%;
 }
 
+.subir {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1;
+  opacity: 0.5;
+}
+
 .club {
   margin: 20px;
   display: flex;
