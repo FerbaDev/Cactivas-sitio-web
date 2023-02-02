@@ -365,6 +365,7 @@ body {
 }
 .sec-formulario {
   margin-block: 20px;
+  padding: 20px;
 }
 .sec-formulario .formulario-club {
   padding: 20px;
@@ -375,6 +376,7 @@ body {
 }
 .sec-formulario .formulario-club input {
   background-color: #4D5256;
+  width: 50%;
 }
 
 .catalogo {
