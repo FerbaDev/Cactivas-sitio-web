@@ -3,13 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     color: $colorfuente-p;
-    background-color: $color-fondo;
+    
 
     &::selection {
         background-color: antiquewhite;
         color: black;
     }
 
+}
+main {
+    background-image: url(../../imagenes/fondo.jpg);
+    background-size: 100%;
+}
+.navbar {
+    background: $fondogradiente;
+    background: $grad-navbar;
 }
 h1{
     font-family: $fuente-titulos;

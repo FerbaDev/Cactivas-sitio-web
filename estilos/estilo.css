@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.85);
-  background-color: #212529;
 }
 *::-moz-selection {
   background-color: antiquewhite;
@@ -15,6 +14,16 @@
 *::selection {
   background-color: antiquewhite;
   color: black;
+}
+
+main {
+  background-image: url(../../imagenes/fondo.jpg);
+  background-size: 100%;
+}
+
+.navbar {
+  background: rgb(33, 37, 41);
+  background: linear-gradient(90deg, rgb(33, 37, 41) 1%, rgb(101, 114, 126) 45%, rgb(112, 126, 139) 63%, rgb(33, 37, 41) 96%);
 }
 
 h1 {
@@ -162,31 +171,21 @@ footer {
   flex-direction: column;
   border-top: solid 1px rgba(255, 255, 255, 0.85);
   background: #4d5256;
-}
-footer h4 {
-  background: #4d5256;
+  background: linear-gradient(90deg, rgb(33, 37, 41) 18%, rgb(101, 114, 126) 44%, rgb(170, 190, 211) 100%);
 }
 footer .cont1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 20px;
-  background: #4d5256;
-}
-footer .cont1 .foot-nav {
-  background: #4d5256;
 }
 footer .cont1 .foot-nav .list-nav {
   list-style: none;
   padding-left: 0;
 }
-footer .cont1 .foot-nav .list-nav li {
-  background: #4d5256;
-}
 footer .cont1 .foot-nav .list-nav li a {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  background: #4d5256;
 }
 footer .cont1 .foot-nav .list-nav li a:hover {
   color: rgb(211, 174, 174);
@@ -194,7 +193,6 @@ footer .cont1 .foot-nav .list-nav li a:hover {
 footer .cont1 .foot-redes {
   display: flex;
   flex-direction: column;
-  background: #4d5256;
 }
 footer .cont1 .foot-redes .list-redes {
   display: flex;
@@ -203,18 +201,11 @@ footer .cont1 .foot-redes .list-redes {
   list-style: none;
   padding-left: 0;
 }
-footer .cont1 .foot-redes .list-redes li {
-  background: #4d5256;
-}
 footer .cont1 .foot-redes .list-redes li a {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-size: 2em;
   letter-spacing: 1em;
-  background: #4d5256;
-}
-footer .cont1 .foot-redes .list-redes li a i {
-  background: #4d5256;
 }
 footer .cont1 .foot-redes .list-redes li a:hover {
   color: rgb(211, 174, 174);
