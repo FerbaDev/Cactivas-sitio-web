@@ -2,27 +2,32 @@ footer {
     display: flex;
     flex-direction: column;
     border-top: solid 1px $colorfuente-p;
+    background: $bg-footer;
+    h4 {
+        background: $bg-footer;
+    }
     .cont1 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin: $padd-cont;
-        
+        background: $bg-footer;
         
 
         .foot-nav {
-            
+            background: $bg-footer;
 
+            
             .list-nav{
                 list-style: none;
                 padding-left: 0;
                 
                 li {
-                    
+                    background: $bg-footer;
                     a {
                         color: $colorfuente-p;
                         text-decoration: none;
-                        
+                        background: $bg-footer;
                         &:hover {
                             color: $color-link;
                         }
@@ -33,6 +38,7 @@ footer {
         .foot-redes {
             display: flex;
             flex-direction: column;
+            background: $bg-footer;
             .list-redes {
                 display: flex;
                 flex-direction: row;
@@ -40,12 +46,16 @@ footer {
                 list-style: none;
                 padding-left: 0;
                 li {
-
+                    background: $bg-footer;
                     a {
                         color: $colorfuente-p;
                         text-decoration: none;
                         font-size: 2em;
                         letter-spacing: 1em;
+                        background: $bg-footer;
+                        i {
+                            background: $bg-footer;
+                        }
                         
                         &:hover {
                             color: $color-link;
