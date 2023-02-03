@@ -368,6 +368,12 @@ body {
   flex-direction: column;
   gap: 0.5em;
 }
+.sec-formulario .formulario-club select {
+  color: #212527;
+}
+.sec-formulario .formulario-club select option {
+  color: #212527;
+}
 .sec-formulario .formulario-club input {
   background-color: #4D5256;
   width: 50%;
