@@ -46,6 +46,8 @@
 
     img {
         width: 50%;
+        padding: $padd_img;
+        background-color: $bg_img;
     }
 }
 .subir{
@@ -136,8 +138,6 @@
 
         img {
             width: 90%;
-            padding: $padd_img;
-            background-color: $bg_img;
         }
     }
 }
