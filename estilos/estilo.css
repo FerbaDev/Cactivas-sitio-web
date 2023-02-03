@@ -21,12 +21,12 @@ main {
   background-size: 100%;
   background-repeat: no-repeat;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar {
   background: rgb(33, 37, 41);
-  background: linear-gradient(90deg, rgb(33, 37, 41) 1%, rgb(101, 114, 126) 45%, rgb(112, 126, 139) 63%, rgb(33, 37, 41) 96%);
+  background: linear-gradient(90deg, rgb(33, 37, 41) 38%, rgb(101, 114, 126) 67%, rgb(33, 37, 41) 98%);
 }
 
 h1 {
