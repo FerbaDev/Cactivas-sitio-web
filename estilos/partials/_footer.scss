@@ -1,73 +1,74 @@
 footer {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px $colorfuente-p;
+  background: $fondogradiente;
+  background: $gradiente;
+
+  .cont1 {
     display: flex;
-    flex-direction: column;
-    border-top: solid 1px $colorfuente-p;
-    background: $fondogradiente;
-    background: $gradiente;
-    
-    .cont1 {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: $padd-cont;
+    gap: 1em;
+
+    .foot-nav {
+      .list-nav {
+        list-style: none;
+        padding-left: 10px;
+
+        li {
+          a {
+            color: $colorfuente-p;
+            text-decoration: none;
+
+            &:hover {
+              color: $color-link;
+            }
+          }
+        }
+      }
+    }
+    .foot-redes {
+      display: flex;
+      flex-direction: column;
+
+      .list-redes {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: $padd-cont;
-        
-        
+        list-style: none;
+        padding-left: 0;
+        li {
+          a {
+            color: $colorfuente-p;
+            text-decoration: none;
+            font-size: 2em;
+            letter-spacing: 1em;
 
-        .foot-nav {
-            
-
-            
-            .list-nav{
-                list-style: none;
-                padding-left: 0;
-                
-                li {
-                    
-                    a {
-                        color: $colorfuente-p;
-                        text-decoration: none;
-                        
-                        &:hover {
-                            color: $color-link;
-                        }
-                    }
-                }
+            &:hover {
+              color: $color-link;
             }
+          }
         }
-        .foot-redes {
-            display: flex;
-            flex-direction: column;
-            
-            .list-redes {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                list-style: none;
-                padding-left: 0;
-                li {
-                    
-                    a {
-                        color: $colorfuente-p;
-                        text-decoration: none;
-                        font-size: 2em;
-                        letter-spacing: 1em;
-                        
-                        &:hover {
-                            color: $color-link;
-                        }
-                    }
-                }
-            }
-        }
+      }
     }
-    .foot-firma {
-        text-align: end;
-        
+  }
+  .foot-firma {
+    text-align: end;
 
-        p {
-            font-family: $fuente-firma;
-            margin: $padd-cont;
-            font-size: x-small;
+    p {
+      font-family: $fuente-firma;
+      margin: $padd-cont;
+      font-size: x-small;
+
+      a {
+        text-decoration: none;
+        color: $colorfuente-p;
+        &:hover {
+          color: $color-link;
         }
+      }
     }
+  }
 }

@@ -181,10 +181,11 @@ footer .cont1 {
   flex-direction: row;
   justify-content: space-around;
   margin: 20px;
+  gap: 1em;
 }
 footer .cont1 .foot-nav .list-nav {
   list-style: none;
-  padding-left: 0;
+  padding-left: 10px;
 }
 footer .cont1 .foot-nav .list-nav li a {
   color: rgba(255, 255, 255, 0.85);
@@ -220,6 +221,13 @@ footer .foot-firma p {
   font-family: "Press Start 2P", cursive;
   margin: 20px;
   font-size: x-small;
+}
+footer .foot-firma p a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+}
+footer .foot-firma p a:hover {
+  color: rgb(211, 174, 174);
 }
 
 body {

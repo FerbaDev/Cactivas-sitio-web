@@ -1,167 +1,319 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cactivas</title>
-    <meta name="description" content="Vivero virtual de cactus y suculentas. Envíos a toda la Argentina.">
-    <meta name="keywords" content="cactus, suculentas, argentina, envios, cultivo organico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/estilo.css">
-    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
-</head>
-<body>
-<!--   empieza navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between border-bottom px-3" id="top">
-        <a class="navbar-brand" href="index.html"><img src="./imagenes/logonav.jpg" width="30" height="30" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active text-end">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only"></span>
-                    </a>
-                </li>
-                <li class="nav-item text-end">
-                    <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item text-end">
-                    <a class="nav-link" href="./pages/tips.html">Tips</a>
-                </li>
-                <li class="nav-item text-end">
-                    <a class="nav-link" href="./pages/curso.html">Curso</a>
-                </li>
-                <li class="nav-item text-end">
-                    <a class="nav-link" href="./pages/clubcactivas.html">Club</a>
-                </li>
-            </ul>
-        </div>
+    <meta
+      name="description"
+      content="Vivero virtual de cactus y suculentas. Envíos a toda la Argentina."
+    />
+    <meta
+      name="keywords"
+      content="cactus, suculentas, argentina, envios, cultivo organico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./estilos/estilo.css" />
+    <link
+      rel="shortcut icon"
+      href="./imagenes/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--   empieza navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between border-bottom px-3"
+      id="top"
+    >
+      <a class="navbar-brand" href="index.html"
+        ><img src="./imagenes/logonav.jpg" width="30" height="30" alt="logo"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active text-end">
+            <a class="nav-link" href="./index.html"
+              >Home <span class="sr-only"></span>
+            </a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/tips.html">Tips</a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/curso.html">Curso</a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/clubcactivas.html">Club</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-<!-- cierra navbar -->    
-<!-- empieza main -->
+    <!-- cierra navbar -->
+    <!-- empieza main -->
     <main>
-        <!-- presentación -->
-        <div class="container-fluid banner-bienvenida">
-            <h1>Cactivas</h1>
-            <p>Cactivas es un <a href="./pages/tienda.html">vivero virtual</a> especializado en cactus y suculentas. Más de 6 años de historias compartidas. Anteriormente nos encontraban en Córdoba capital en la calle 27 de abril. </p>
+      <!-- presentación -->
+      <div class="container-fluid banner-bienvenida">
+        <h1>Cactivas</h1>
+        <p>
+          Cactivas es un
+          <a href="./pages/tienda.html">vivero virtual</a> especializado en
+          cactus y suculentas. Más de 6 años de historias compartidas.
+          Anteriormente nos encontraban en Córdoba capital en la calle 27 de
+          abril.
+        </p>
+      </div>
+      <!-- sección charla con foto -->
+      <section class="charla">
+        <p>
+          Quienes nos visitaron fueron testigos de charlas gratis, cursos,
+          talleres, expos, sorteos y todo tipo de actividades.
+        </p>
+        <img
+          class="charla-img rounded"
+          src="./imagenes/charla.jpg"
+          alt="charla en el local"
+        />
+      </section>
+      <!-- banner tienda -->
+      <div class="container-fluid tienda">
+        <div class="bannertienda">
+          <h2>Tienda</h2>
+          <p>
+            Actualmente en nuestra
+            <a href="./pages/tienda.html" class="link-color">tienda online</a>
+            van a encontrar cactus y suculentas, productos orgánicos para el
+            cuidado de las plantas y depende de la estación, algunas semillas.
+          </p>
         </div>
-        <!-- sección charla con foto -->
-        <section class="charla">
-            <p>Quienes nos visitaron fueron testigos de charlas gratis, cursos, talleres, expos, sorteos y todo tipo de actividades.</p>
-            <img class="charla-img rounded" src="./imagenes/charla.jpg" alt="charla en el local">
-        </section>
-        <!-- banner tienda -->
-        <div class="container-fluid tienda">
-            <div class="bannertienda">
-                <h2>Tienda</h2>
-                <p>Actualmente en nuestra <a href="./pages/tienda.html" class="link-color">tienda online</a> van a encontrar cactus y suculentas, productos orgánicos para el cuidado de las plantas y depende de la estación, algunas semillas.</p>
+        <img
+          class="rounded"
+          src="./imagenes/pizarra.JPG"
+          alt="foto del cartel de entrada a la tienda"
+        />
+      </div>
+      <!-- boton subir -->
+      <a href="#top" class="subir"><i class="fa-solid fa-angles-up"></i></a>
+      <!-- banner club -->
+      <div class="club rounded">
+        <p>El modo virtual nos permite llegar más lejos y a más personas.</p>
+        <p>
+          Y también se suman
+          <a href="./pages/clubcactivas.html">nuevas experiencias</a> tratando
+          de mantener un contacto especial con cada visitante.
+        </p>
+      </div>
+      <!-- banner curso -->
+      <div class="alert alert-warning mx-4" role="alert">
+        Y si querés saber más, los cursos continuan siendo presenciales al igual
+        que las charlas y los talleres aunque se suman también las
+        <a href="./pages/curso.html">modalidades virtuales</a>.
+      </div>
+      <!-- banner mision -->
+      <div class="mision rounded" id="numis">
+        <h3>Nuestra misión</h3>
+        <p>
+          Desde Cactivas
+          <strong>promovemos el cultivo orgánico.</strong> Desaconsejamos
+          totalmente el uso de pesticidas tóxicos y ni siquiera los ofrecemos en
+          la <a href="/pages/tienda.html">tienda</a>. Los únicos productos que
+          hay en venta para el tratamiento de plagas y enfermedades
+          <em
+            >son amigables con el medio ambiente y con nuestra salud y la de
+            nuestros hijos y mascotas.</em
+          >
+          Incluso en el <a href="/pages/curso.html">curso</a> se enseñan sólo
+          métodos de control biológico.
+        </p>
+      </div>
+      <!-- carousel -->
+      <h3 id="top5">Top 5</h3>
+      <div class="container carrusel">
+        <div id="carouselfotos" class="carousel slide">
+          <div class="carousel-indicators barraslides">
+            <button
+              type="button"
+              data-bs-target="#carouselfotos"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselfotos"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselfotos"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselfotos"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselfotos"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselfotos"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./imagenes/foto1.jpg"
+                class="d-block w-100"
+                alt="chamacereus"
+              />
             </div>
-            <img class="rounded" src="./imagenes/pizarra.JPG" alt="foto del cartel de entrada a la tienda">
-        </div>
-        <!-- boton subir -->
-        <a href="#top" class="subir"><i class="fa-solid fa-angles-up"></i></a>
-        <!-- banner club -->
-        <div class="club rounded">
-            <p>El modo virtual nos permite llegar más lejos y a más personas.</p> 
-            <p>Y también se suman <a href="./pages/clubcactivas.html">nuevas experiencias</a> tratando de mantener un contacto especial con cada visitante.</p>
-        </div>
-        <!-- banner curso -->
-        <div class="alert alert-warning mx-4" role="alert">
-            Y si querés saber más, los cursos continuan siendo presenciales al igual que las charlas y los talleres aunque se suman también las <a href="./pages/curso.html">modalidades virtuales</a>.
-        </div>
-        <!-- banner mision -->
-        <div class="mision rounded" id="numis">
-            <h3>Nuestra misión</h3>
-            <p>Desde Cactivas <strong>promovemos el cultivo orgánico.</strong> Desaconsejamos totalmente el uso de pesticidas tóxicos y ni siquiera los ofrecemos en la <a href="/pages/tienda.html">tienda</a>. Los únicos productos que hay en venta para el tratamiento de plagas y enfermedades <em>son amigables con el medio ambiente y con nuestra salud y la de nuestros hijos y mascotas.</em>  Incluso en el <a href="/pages/curso.html">curso</a> se enseñan sólo métodos de control biológico.</p>
-        </div>
-        <!-- carousel -->
-        <h3 id="top5">Top 5</h3>
-        <div class="container carrusel">
-            <div id="carouselfotos" class="carousel slide">
-                <div class="carousel-indicators barraslides">
-                    <button type="button" data-bs-target="#carouselfotos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselfotos" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselfotos" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselfotos" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselfotos" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselfotos" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./imagenes/foto1.jpg" class="d-block w-100" alt="chamacereus">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/foto2.jpg" class="d-block w-100" alt="suculentas">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/foto3.jpg" class="d-block w-100" alt="flor de cola de mono">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/foto4.jpg" class="d-block w-100" alt="mis de suculentas">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/foto5.jpg" class="d-block w-100" alt="colas de mono">
-                </div>
-                <div class="carousel-item">
-                    <img src="./imagenes/foto6.jpg" class="d-block w-100" alt="logo cactivas">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselfotos" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselfotos" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            <div class="carousel-item">
+              <img
+                src="./imagenes/foto2.jpg"
+                class="d-block w-100"
+                alt="suculentas"
+              />
             </div>
+            <div class="carousel-item">
+              <img
+                src="./imagenes/foto3.jpg"
+                class="d-block w-100"
+                alt="flor de cola de mono"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imagenes/foto4.jpg"
+                class="d-block w-100"
+                alt="mis de suculentas"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imagenes/foto5.jpg"
+                class="d-block w-100"
+                alt="colas de mono"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imagenes/foto6.jpg"
+                class="d-block w-100"
+                alt="logo cactivas"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselfotos"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselfotos"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
     </main>
     <footer>
-        <div class="cont1">
-            <div class="foot-nav">
-                <h4>Navegación</h4>
-                <ul class="list-nav">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/tienda.html">Tienda</a></li>
-                    <li><a href="./pages/clubcactivas.html">Club</a></li>
-                    <li><a href="./pages/curso.html">Cursos</a></li>
-                    <li><a href="./pages/tips.html">Tips de cultivo</a></li>
-                    <li><a href="#numis">Nuestra misión</a></li>
-                    <li><a href="#carouselfotos">Top5</a></li>
-                </ul>
-            </div>
-            <div class="foot-redes">
-                <h4>Redes sociales</h4>
-                <ul class="list-redes">
-                    <li><a href="https://www.facebook.com/cactivas" target="_blank">
-                        <i class="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/cactivas" target="_blank">
-                            <i class="fa-brands fa-instagram" ></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://cactivas.blogspot.com/" target="_blank">
-                            <i class="fa-brands fa-blogger"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/+543571573266?text=Te%20comunicaste%20con%20Cactivas.%20%C2%BFEn%20qu%C3%A9%20podemos%20ayudarte?">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <div class="cont1">
+        <div class="foot-nav">
+          <h4>Navegación</h4>
+          <ul class="list-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/tienda.html">Tienda</a></li>
+            <li><a href="./pages/clubcactivas.html">Club</a></li>
+            <li><a href="./pages/curso.html">Cursos</a></li>
+            <li><a href="./pages/tips.html">Tips de cultivo</a></li>
+            <li><a href="#numis">Nuestra misión</a></li>
+            <li><a href="#carouselfotos">Top5</a></li>
+          </ul>
         </div>
-        <div class="foot-firma">
-            <p>Página realizada por Fernando Barron.</p>
+        <div class="foot-redes">
+          <h4>Redes sociales</h4>
+          <ul class="list-redes">
+            <li>
+              <a href="https://www.facebook.com/cactivas" target="_blank">
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/cactivas" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://cactivas.blogspot.com/" target="_blank">
+                <i class="fa-brands fa-blogger"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/+543571573266?text=Te%20comunicaste%20con%20Cactivas.%20%C2%BFEn%20qu%C3%A9%20podemos%20ayudarte?"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="foot-firma">
+        <p>
+          Página realizada por
+          <a href="https://talbalabs.com.ar/" target="_blank">Talba Labs</a>
+        </p>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
